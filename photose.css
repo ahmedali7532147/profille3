@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+header {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.nav a{
+    border-left: 2px solid;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.nav link{
+    border-left: 2px solid;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.nav a:hover {
+    transform:translateX(5px);
+    color: #ffffff;
+    background-color: rgb(146, 146, 146);
+    transform: scale(1.2);
+}
+
+
+/*section to photose*/
+.sec-1 div {
+    display: grid;
+    margin: 100px 20px;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr ;
+    gap: 30px;
+}
+.sec-1 img {
+    
+}
